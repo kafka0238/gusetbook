@@ -39,6 +39,11 @@ class Admin implements UserInterface
         return $this->id;
     }
 
+    public function __toString(): string
+    {
+        return $this->username;
+    }
+
     /**
      * A visual identifier that represents this user.
      *
