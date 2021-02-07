@@ -3,9 +3,9 @@ easy_admin:
 
     design:
         menu:
-          - { route: 'homepage', lable: 'Back to the website', icon: 'home' }
-          - { route: 'Conference', lable: 'Conferences', icon: 'map-marker' }
-          - { route: 'Comment', lable: 'Comments', icon: 'comments' }
+          - { route: 'homepage', label: 'Back to the website', icon: 'home' }
+          - { route: 'Conference', label: 'Conferences', icon: 'map-marker' }
+          - { route: 'Comment', label: 'Comments', icon: 'comments' }
 
     entities:
         Conference:
