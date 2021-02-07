@@ -26,7 +26,7 @@ class Comment
     /**
      * @ORM\Column(type="text")
      */
-    private $test;
+    private $text;
 
     /**
      * @ORM\Column(type="string", length=255)
@@ -71,14 +71,14 @@ class Comment
         return $this;
     }
 
-    public function getTest(): ?string
+    public function getText(): ?string
     {
-        return $this->test;
+        return $this->text;
     }
 
-    public function setTest(string $test): self
+    public function setText(string $text): self
     {
-        $this->test = $test;
+        $this->text = $text;
 
         return $this;
     }
